@@ -19,7 +19,6 @@ class App extends Component {
   //   productOutput.push({id: Math.random().toString(), value: productText});
   //   this.setState({productOutput});
   // };
-
   // deleteProduct = (productId) => {
   //   console.log(productId);
   //   let {productOutput} = this.state;
