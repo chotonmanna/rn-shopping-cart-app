@@ -9,6 +9,7 @@ import Login from '../views/user/Login';
 import Category from '../views/shop/Category';
 import Products from '../views/shop/Products';
 import CartItemList from '../views/cart/CartItemList';
+import ChatRoom from '../views/chat/ChatRoom';
 import Header from '../components/Header';
 
 const Stack = createStackNavigator();
@@ -56,6 +57,11 @@ class Navigator extends Component {
               name="Login"
               component={Login}
               options={{title: 'Login to your account'}}
+            />
+            <Stack.Screen 
+              name="ChatRoom"
+              component={ChatRoom}
+              options={{title: 'Chat Room', headerShown: false}}
             />
         </Stack.Navigator>
       </NavigationContainer>

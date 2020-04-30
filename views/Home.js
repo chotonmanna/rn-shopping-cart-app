@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, Button, AsyncStorage } from 'react-native';
+import EnterChatRoom from './chat/EnterChatRoom';
 
 class Home extends Component {
   constructor(props) {
@@ -26,6 +27,7 @@ class Home extends Component {
             onPress={() => navigation.navigate('Registration')}
             color="#2f4f4f"
           />
+          <EnterChatRoom navigation={navigation} />
         </View>
       </View>
     );    

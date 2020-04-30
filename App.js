@@ -7,6 +7,7 @@ import { View } from 'react-native';
 class App extends Component {
   constructor(props) {
     super(props);
+    console.disableYellowBox = true;
     // this.state = {
     //   welcomeText: 'Welcome to React Native World...',
     //   productOutput: []
